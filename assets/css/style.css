@@ -36,7 +36,7 @@ h1{
     letter-spacing: 2px;
     font-size:200%;
     color: whitesmoke;
-    text-align: center;
+    text-align: center;  
 }
 
 h2{
@@ -44,7 +44,6 @@ h2{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size:100%;
-    
     color: whitesmoke;
     text-align: center;
 }
@@ -128,4 +127,31 @@ input[type=text], input[type=submit]{
     font-size: 160%;
     padding: 5%;
     color: whitesmoke;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (max-width: 576px) {
+    
+    h1{
+    font-family: 'Andada+Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:100%;
+    color: whitesmoke;
+    text-align: center;  
+    }
+    #form{
+        position: absolute;
+        top: 80px;
+        left : 10px;
+    }
+
+    #tabs{
+        font-size: 80%;
+        letter-spacing: 2px;
+        list-style-type: none;  
+        word-spacing: 0.5cm;
+        text-align: center;
+    }
+ 
 }
