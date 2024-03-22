@@ -156,6 +156,19 @@ input[type=text], input[type=submit]{
  
 }
 
+/*Styling for gallery.html */
+#photos img{    
+    width: 200px;
+    height: 200px;
+    line-height: 1em;
+    
+    
+}
+#photos{
+    line-height: 0;
+    margin-bottom: 20em;
+}
+
 /*Styling for caring.html*/
 #caring {
     margin-bottom: 10em;
