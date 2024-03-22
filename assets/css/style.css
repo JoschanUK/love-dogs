@@ -10,11 +10,7 @@
     background-color: black;
 }
 
-
-header {
-    /*background-color: #91A4E0;*/    
-}
-
+/* This is the style of for my links */
 #tabs{
     font-size: 110%;
     letter-spacing: 4px;
@@ -22,6 +18,7 @@ header {
     word-spacing: 1cm;
     text-align: center;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -31,13 +28,13 @@ body {
     color: whitesmoke;
     font-family: 'Andada+Pro', sans-serif;
 }
-/* Setting font and colour for the Main title */
+
+/* Setting font and colour for the Main title h1 and h2 */
 h1{
     font-family: 'Andada+Pro', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size:200%;
-    /*color: #252525;*/
     color: whitesmoke;
     text-align: center;
 }
@@ -59,6 +56,8 @@ h2{
     background: url("../images/Intro.jpg") no-repeat center center/cover;
     position: relative;   
 }
+
+/*To adjust the main introduction paragraph */
 #main-walker-adjust{
     margin: 2;
     padding: 0;
@@ -68,6 +67,8 @@ h2{
     margin-bottom: 15em;
    
 }
+
+/* Dog walk sign up picture */
 #signup{
     color: whitesmoke; 
     margin-bottom: 15em;    
@@ -78,15 +79,15 @@ h2{
   
     
 }
+
+/* Adjusting the size and position of the form */
 #form{
 
     position: absolute;
     top: 80px;
     left : 200px;
-  /*  border-style: double;*/
-    
-    
 }
+
 /*Style the text and submit button */
 input[type=text], input[type=submit]{
     background-color: lightblue;
@@ -98,6 +99,7 @@ input[type=text], input[type=submit]{
     cursor: pointer;
     
 }
+
 /* This is where all the external links are found*/ 
 #links{
     font-size: 100%;
@@ -107,17 +109,19 @@ input[type=text], input[type=submit]{
     text-align: center;
     margin-bottom: 15em;
 }
+
+/* Aligning the text at the footer */
 #footer{
     text-align: center;
 }
 
+/* Aligning the icons and the text at the footer */
 #social-networks{
     text-align: center;
     padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
 }
 
 #social-networks i {
