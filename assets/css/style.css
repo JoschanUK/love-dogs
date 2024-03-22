@@ -6,6 +6,7 @@
     padding: 10;
     margin: 10;
     box-sizing: border-box;
+    background-color: #91A4E0
 }
 
 
@@ -45,7 +46,7 @@ h2{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size:100%;
-    /*color: #252525;*/
+    
     color: whitesmoke;
     text-align: center;
 }
@@ -58,7 +59,7 @@ h2{
     position: relative;   
 }
 #main-walker-adjust{
-    margin: 0;
+    margin: 2;
     padding: 0;
     font-size: large;
     text-align:center;
@@ -67,7 +68,7 @@ h2{
    
 }
 #signup{
-    background-color: #DDB9E0;
+   /* background-color: #DDB9E0;*/
 }
 /* This is where all the external links are found*/ 
 #links{
@@ -84,6 +85,6 @@ h2{
     background-color: #91A4E0;
     color: whitesmoke; */
 }
-footer{
-    background-color: #DDB9E0;
+#footer{
+    text-align: center;
 }
