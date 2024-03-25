@@ -129,14 +129,56 @@ input[type=text], input[type=submit]{
     color: whitesmoke;
 }
 
-/* Media query: large or landscape phones max-width 576px */
-@media screen and (max-width: 576px) {
+/* Media query: max-width 320px */
+@media screen and (min-width: 320px) {
+
+    #form{
+        position: absolute;
+        top: 80px;
+        left : 10px;
+    }
+    
+}
+
+/* Media query: max-width 375px */
+@media screen and (min-width: 375px) {
+
+    
+
+    #form{
+        position: absolute;
+        top: 80px;
+        left : 10px;
+    }
+
+}
+
+/* Media query: max-width 425px */
+@media screen and (min-width: 425px) {
+
+    #form{
+        position: absolute;
+        top: 80px;
+        left : 10px;
+    }
+/*
+    #photos{
+        column-count: 2;
+        column-gap:0;
+        
+    }*/
+}
+
+
+
+/* Media query: large or landscape phones min-width 768px */
+@media screen and (min-width: 768px) {
     
     h1{
     font-family: 'Andada+Pro', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size:100%;
+    font-size:200%;
     color: whitesmoke;
     text-align: center;  
     }
@@ -144,17 +186,9 @@ input[type=text], input[type=submit]{
     #form{
         position: absolute;
         top: 80px;
-        left : 10px;
+        left : 100px;
     }
-
-    #tabs{
-        font-size: 80%;
-        letter-spacing: 2px;
-        list-style-type: none;  
-        word-spacing: 0.5cm;
-        text-align: center;
-    }
- 
+   
     #video{
         width: auto;
         height: auto;
