@@ -136,21 +136,17 @@ input[type=text], input[type=submit]{
         position: absolute;
         top: 80px;
         left : 10px;
-    }
-    
+    }  
 }
 
 /* Media query: max-width 375px */
 @media screen and (min-width: 375px) {
 
-    
-
     #form{
         position: absolute;
         top: 80px;
         left : 10px;
-    }
-
+    }   
 }
 
 /* Media query: max-width 425px */
@@ -161,15 +157,7 @@ input[type=text], input[type=submit]{
         top: 80px;
         left : 10px;
     }
-/*
-    #photos{
-        column-count: 2;
-        column-gap:0;
-        
-    }*/
 }
-
-
 
 /* Media query: large or landscape phones min-width 768px */
 @media screen and (min-width: 768px) {
