@@ -49,7 +49,7 @@ body {
     font-family: 'Andada+Pro', sans-serif;
 }
 
-/* Setting font and colour for the Main title h1 and h2 */
+/* Setting font and colour for the Main title h1 and p*/
 h1{
     font-family: 'Andada+Pro', sans-serif;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ p {
     text-align: center;
 }
 
-.parallax {
+.parallax_mainpicture {
     /* The image used */
     
     width: 100%;
@@ -82,45 +82,45 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*margin: 2;
-    padding: 0;
-    font-size: large;
-    text-align:center;
-    color: whitesmoke; 
-    margin-bottom: 15em;
+   
 */
 }
 
-/*Main picture at index.html*/
-/*#main-walker {
-    height: 600px;
+.parallax_signup {
+    /* The image used */
+    
     width: 100%;
-    background: url("../images/Intro.jpg") no-repeat center center/cover;
-    position: relative;   
-}*/
+    background-image: url("../images/walk.jpg");
 
-/*To adjust the main introduction paragraph */
-/*#main-walker-adjust{
-    margin: 2;
-    padding: 0;
-    font-size: large;
-    text-align:center;
-    color: whitesmoke; 
-    margin-bottom: 15em;
-   
-}*/
+    /* Full height */
+    height: 750px; 
 
-/* Dog walk sign up picture */
-#signup{
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: whitesmoke; 
     margin-bottom: 15em;    
     height: 600px;
     width: 100%;
-    background: url("../images/walk.jpg") no-repeat center center/cover;
+    position: relative;  
+   
+*/
+}
+
+
+
+/* Dog walk sign up picture */
+/*#signup{
+    color: whitesmoke; 
+    margin-bottom: 15em;    
+    height: 600px;
+    width: 100%;
     position: relative;      
   
     
-}
+}*/
 
 /* Adjusting the size and position of the form */
 #form{
