@@ -19,6 +19,27 @@
     text-align: center;
 }
 
+/* Adding some styles to the links when user clicke, hover, link and selected link */
+/* unvisited link */
+a:link {
+    color: whitesmoke;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: whitesmoke;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -101,10 +122,10 @@ input[type=text], input[type=submit]{
 
 /* This is where all the external links are found*/ 
 #links{
-    font-size: 100%;
+    font-size: 150%;
     letter-spacing: 4px;
     list-style-type: none;  
-    word-spacing: 0cm;
+    word-spacing: 5cm;
     text-align: center;
     margin-bottom: 15em;
 }
