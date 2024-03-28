@@ -100,7 +100,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke; 
-    margin-bottom: 15em;    
+    margin-bottom: 5em;    
     height: 600px;
     width: 100%;
     position: relative;  
@@ -135,7 +135,7 @@ input[type=text], input[type=submit]{
     background-image: url("../images/link.jpg");
 
     /* Full height */
-    height: 500px; 
+    height: 250px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -148,7 +148,7 @@ input[type=text], input[type=submit]{
     list-style-type: none;  
     word-spacing: 5cm;
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
    
 }
 
