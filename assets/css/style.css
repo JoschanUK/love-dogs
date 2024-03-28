@@ -3,10 +3,9 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 10;
+    /*padding: 10;
     margin: 10;
-    box-sizing: border-box;
-  /*  background-color: #91A4E0;*/
+    box-sizing: border-box;*/
     background-color: black;
 }
 
@@ -42,7 +41,7 @@ a:link {
 
 /* General styles */
 body {
-    min-height: 100vh;
+    height: 50px;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -60,25 +59,48 @@ h1{
     text-align: center;  
 }
 
-h2{
+p {
     font-family: 'Andada+Pro', sans-serif;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 2px;
     font-size:100%;
     color: whitesmoke;
     text-align: center;
 }
 
+.parallax {
+    /* The image used */
+    
+    width: 100%;
+    background-image: url("../images/Intro.jpg");
+
+    /* Full height */
+    height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin: 2;
+    padding: 0;
+    font-size: large;
+    text-align:center;
+    color: whitesmoke; 
+    margin-bottom: 15em;
+*/
+}
+
 /*Main picture at index.html*/
-#main-walker {
+/*#main-walker {
     height: 600px;
     width: 100%;
     background: url("../images/Intro.jpg") no-repeat center center/cover;
     position: relative;   
-}
+}*/
 
 /*To adjust the main introduction paragraph */
-#main-walker-adjust{
+/*#main-walker-adjust{
     margin: 2;
     padding: 0;
     font-size: large;
@@ -86,7 +108,7 @@ h2{
     color: whitesmoke; 
     margin-bottom: 15em;
    
-}
+}*/
 
 /* Dog walk sign up picture */
 #signup{
