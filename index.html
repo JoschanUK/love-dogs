@@ -22,24 +22,44 @@
 
     <!--Header-->
     <header>
+        
         <!--Creating and adding an icon next to the links to other pages-->
         <h1  id="main-title">In Love with dogs</h1>
-        <nav id="tabs">
+        <div id="main_menu">
+            <nav id="tabs">
             <i class="fa-solid fa-paw"></i><a href="#main-walker" class="active">Home</a>
             <i class="fa-solid fa-paw"></i><a href="gallery.html">Gallery</a>
             <i class="fa-solid fa-paw"></i><a href="caring.html">Caring</a>
             <i class="fa-solid fa-paw"></i><a href="contact.html">Contact</a>                             
-        </nav>
-
+            </nav>
+        </div>
+        <!--Creating a sub menu to cater to smaller screen or phone -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+              
+                <!--Some spans to act as a hamburger lines -->
+                <span></span>
+                <span></span>
+                <span></span>
+              
+                <!--Sub menu-->
+                <ul id="menu">
+                    <a href="#main-walker"><li>Home</li></a>
+                    <a href="gallery.html"><li>Gallery</li></a>
+                    <a href="caring.html"><li>Caring</li></a>
+                    <a href="contact.html"><li>Contact</li></a>            
+                </ul>
+            </div>
+          </nav>
+    
     </header>
 
     <!-- Main content -->
     <main>  
 
-
-
     <!--Introduction to the website with a paragraph-->    
-   <!-- <section id="main-walker"></section>-->
+    <!-- <section id="main-walker"></section>-->
         <div class="parallax_mainpicture">
         <!--<div id="main-walker-adjust">  -->
             
@@ -91,18 +111,16 @@
             <img src="assets/images/love-hearts.gif" alt="love dog" style="width:60px;height:60px;">Battersea</a>
             <a href="https://www.dogstrust.org.uk/" target="_blank">
             <img src="assets/images/dogwalking.gif" alt="love dog" style="width:60px;height:60px;">DogTrust</a>
-               
-        
-        </div>
-
-       
+        </div>       
     </main>
+
     <!-- Footer -->
     <!--Contact us details-->
     <footer id="footer">
         <h3>In love with Dogs</h3>
         <h3>Loughton, Essex</h3>
-        <h3>Mobile : 07851 076123 , Email : admin@love-dogs.co.uk</h3>
+        <h3>Mobile : 07851 076123<h3>
+        <h3> Email : admin@love-dogs.co.uk</h3>
         
         <!--Adding the social media websites-->
         <ul id="social-networks">
