@@ -243,6 +243,10 @@ input[type=text], input[type=submit]{
     margin-bottom: 10em;
 }
 
+#caring-document {
+    height : 200px;
+}
+
 #video{
     text-align: center;
     margin-bottom: 20em;
