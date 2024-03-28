@@ -68,6 +68,16 @@ p {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Andada+Pro', sans-serif;
+    /*text-transform: uppercase;*/
+    letter-spacing: 2px;
+    font-size:80%;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 30%;
+}
+
 .parallax_mainpicture {
     /* The image used */
     
@@ -154,8 +164,8 @@ input[type=text], input[type=submit]{
 
 
 /* Aligning the text at the footer */
-#footer{
-    text-align: center;
+#footer{   
+    text-align: center;    
 }
 
 /* Aligning the icons and the text at the footer */
