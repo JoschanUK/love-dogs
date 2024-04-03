@@ -24,12 +24,34 @@
     <header>
         <!--Creating and adding an icon next to the links to other pages-->
         <h1  id="main-title">In Love with dogs</h1>
-        <nav id="tabs">
-            <i class="fa-solid fa-paw"></i><a href="index.html">Home</a>
-            <i class="fa-solid fa-paw"></i><a href="gallery.html">Gallery</a>
-            <i class="fa-solid fa-paw"></i><a href="caring.html" class="active">Caring</a>
-            <i class="fa-solid fa-paw"></i><a href="contact.html">Contact</a>                                 
-        </nav>
+        <div id="main_menu"></div>
+            <nav id="tabs">
+                <i class="fa-solid fa-paw"></i><a href="index.html">Home</a>
+                <i class="fa-solid fa-paw"></i><a href="gallery.html">Gallery</a>
+                <i class="fa-solid fa-paw"></i><a href="caring.html" class="active">Caring</a>
+                <i class="fa-solid fa-paw"></i><a href="contact.html">Contact</a>                                 
+            </nav>
+        </div>
+        <!--Creating a sub menu to cater to smaller screen or phone -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+              
+                <!--Some spans to act as a hamburger lines -->
+                <span></span>
+                <span></span>
+                <span></span>
+              
+                <!--Sub menu-->
+                <ul id="menu">
+                    <a href="#main-walker"><li>Home</li></a>
+                    <a href="gallery.html"><li>Gallery</li></a>
+                    <a href="caring.html"><li>Caring</li></a>
+                    <a href="contact.html"><li>Contact</li></a>            
+                </ul>
+            </div>
+          </nav>
+    
 
     </header>
 
