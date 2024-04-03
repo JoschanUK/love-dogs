@@ -373,6 +373,7 @@ input[type=text], input[type=submit]{
     }
     
     #video{
+      margin-top: 50px;
         width: auto;
         height: auto;
     }
