@@ -34,9 +34,9 @@
             </nav>
         </div>
         <!--Creating a sub menu to cater to smaller screen or phone -->
-        <nav role="navigation">
+        <!--<nav role="navigation"> -->
             <div id="menuToggle">
-                <input type="checkbox" />
+                <input type="checkbox">
               
                 <!--Some spans to act as a hamburger lines -->
                 <span></span>
@@ -45,13 +45,13 @@
               
                 <!--Sub menu-->
                 <ul id="menu">
-                    <a href="#main-walker"><li>Home</li></a>
-                    <a href="gallery.html"><li>Gallery</li></a>
-                    <a href="caring.html"><li>Caring</li></a>
-                    <a href="contact.html"><li>Contact</li></a>            
+                    <li><a href="#main-walker">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="caring.html">Caring</a></li>
+                    <li><a href="contact.html">Contact</a></li>           
                 </ul>
             </div>
-          </nav>
+          <!--</nav> -->
     
     </header>
 
@@ -83,18 +83,18 @@
             <form id="form" style="width: 20%" method=post action="https://formdump.codeinstitute.net">
               <fieldset>
                     <legend>Your Details:</legend> 
-                    <label for="fname">Name:</label><br>
+                    <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" required><br><br>
                     <label for="dname">Dog name:</label><br>
                     <input type="text" id="dname" name="dname" required><br><br>
                     <label for="email">Email Address:</label><br>
                     <input type="text" id="email" name="email" required><br><br>
-                    <label for="location">Walk Location:</label><br>
-                    <input type="radio" id="location" name="location" value="Loughton" required checked>
-                    <label for="html">Loughton</label><br>
-                    <input type="radio" id="location" name="location" value="Buckhurst Hills" required>
-                    <label for="css">Buckhurst Hill</label><br><br><br>
-                
+                    <label>Walk Location:</label><br>
+                    <input type="radio" id="location_l" name="location" value="Loughton" required checked>
+                    <label for="location_l">Loughton</label><br>
+                    <input type="radio" id="location_b" name="location" value="Buckhurst Hills" required>
+                    <label for="location_b">Buckhurst Hill</label><br><br><br>
+  
                     <!--Style the input and submit buttom to be in white in colour-->
                     <input type="submit" value="Submit">
                 </fieldset>
@@ -116,7 +116,7 @@
     <footer id="footer">
         <h3>In love with Dogs</h3>
         <h3>Loughton, Essex</h3>
-        <h3>Mobile : 07851 076123<h3>
+        <h3>Mobile : 07851 076123</h3>
         <h3> Email : admin@love-dogs.co.uk</h3>
         
         <!--Adding the social media websites-->
