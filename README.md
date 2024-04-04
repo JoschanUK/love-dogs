@@ -115,6 +115,7 @@ The live link can be found here - https://joschanuk.github.io/love-dogs/
 - Text in the caring page is taken from website [Animal Foundation.com](https://animalfoundation.com/whats-going-on/blog/basic-necessities-proper-pet-care).
 - All walker's pictures are taken from my personal photo album.
 - Instruction to deploy is taken from [Github](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+- Putting google maps using iframe [stackoverflow](https://stackoverflow.com/questions/23737427/how-to-put-two-iframes-side-by-side).
 
 
 
