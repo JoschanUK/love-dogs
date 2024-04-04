@@ -349,10 +349,24 @@ input[type=text], input[type=submit]{
     hr{
       display: none;
     }
-    #video{
-        margin-top: 300px;
-        width: auto;
-        height: auto;
+    
+    /*Resizing of video */
+    .video {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    }
+    
+    .responsive-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
     }
    
     /*Hide the navidation menu */
@@ -387,6 +401,7 @@ input[type=text], input[type=submit]{
         display: none;
     }
     
+    /* Resizing of video */
     .video {
       position: relative;
       width: 100%;
