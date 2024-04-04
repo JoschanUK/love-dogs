@@ -12,7 +12,9 @@ In this section, we shows the users what to expect and what features are present
 
 **Navigation bar**
 
-There are 2 navigation bar in this website. The first is for big screens (ie tablets or PC). It consists of 4 navigations - Home, Gallery, Caring and Contact.
+There are 2 navigation bars in this website. The first is for big screens (ie tablets or PC). It consists of 4 navigations - Home, Gallery, Caring and Contact.
+
+The other navigation bar is for small screens like smartphones. Instead of displaying all the 4 navigations, user will need to click on the "hamburger" icon to open up the navigation. To close it, user will need to click on the "X".
 
 Home - This is the main index.html file which users will see when they access this webpage.
 
@@ -33,22 +35,22 @@ This is where user can sign up to join in the daily walks with the rest of the d
 
 **Links**
 
-This is found in the Home page. Currently, there are 3 external links - RSPCA, Battersea and Dog's Trust. When the user click on these 3 links, it will open up a new page bringing the user to the new webpage.
+This is found in the Home page. Currently, there are 3 external links - RSPCA, Battersea and Dog's Trust. When the user click on these 3 links, it will open up a new page bringing the user to the selected web site.
 
 ![alt text](<assets/Readme images/Links.jpg>)
 
 **Footer / Contact us**
 
-On every webpage, there is a footer which shows the contact details of the webpage. It also has 4 icons external links to the social media. They are Facebook, Twitter, Youtube and Intergram.
+On every webpage, there is a footer which shows the contact details of the webpage. It also has 4 icons external links to the social media. They are Facebook, Twitter, Youtube and Instagram.
 
 
 ![alt text](<assets/Readme images/footer.jpg>)
 
 **Gallery Page**
 
-This is the second page in this website. It shows a collection of pictures of Walker all these years. In the background, a mp3 song is auto-played.(LOVE by Michael Buble).
+This is the second page in this website. It shows a collection of pictures of Walker all these years. In the background, a mp3 song is auto-played. (LOVE by Michael Buble).
 
-From this page, users can navigate back to Home or proceed to view caring page and contact us page. 
+From this page, users can navigate back to Home or proceed to view the caring page and the contact us page. 
 
 ![alt text](<assets/Readme images/Gallery.jpg>)
 
@@ -56,15 +58,15 @@ From this page, users can navigate back to Home or proceed to view caring page a
 
 This is the third page in the this website. It shows the user some information on how to take care of dogs and it also allow the users to click on a mp4 video.
 
-From this page, users can navigate back to Home or proceed to view gallery page and contact us page. 
+From this page, users can navigate back to Home or proceed to view the gallery page and the contact us page. 
 
 ![alt text](<assets/Readme images/Caring for dogs.jpg>)
 
 **Contact us Page**
 
-This is the fourth and last page in this website. It shows the contacts details - email address and mobile numbers if users would like to get in touch with the creator of this webpage.
+This is the fourth and the last page in this website. It shows the contacts details - email address and mobile numbers if users would like to get in touch with the creator of this website.
 
-From this page, users can navigate back to Home or proceed to view gallery page and caring page. 
+From this page, users can navigate back to Home or proceed to view the gallery page and the caring page. 
 
 ![alt text](<assets/Readme images/contact.jpg>)
 
@@ -85,10 +87,8 @@ From this page, users can navigate back to Home or proceed to view gallery page 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 # Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-Make sure the branch you want to use as your publishing source already exists in your repository.
 
 1. On GitHub, navigate to your site's repository.
 2. Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
