@@ -447,13 +447,6 @@ input[type=text], input[type=submit]{
     height: 200px;
     line-height: 1em;         
 }
-/*
-#audio_sound{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 5%;
-    
-}*/
 
 #form{
     position: absolute;
@@ -481,7 +474,7 @@ input[type=text], input[type=submit]{
 
 .video{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 250px;
 }
 /*
 .box{
