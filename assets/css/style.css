@@ -449,9 +449,16 @@ input[type=text], input[type=submit]{
 
     /*Centering the table */
     #table_sch{
-      width:70%; 
+      width:70%;
       margin-left:15%; 
       margin-right:15%;
+      margin-bottom: 50px; 
+    }
+    
+    .googlemaps{
+     /*width:70%; */
+      margin-left:5%; 
+      /*margin-right:15%;*/
       margin-bottom: 50px; 
     }
 }
@@ -491,16 +498,7 @@ input[type=text], input[type=submit]{
     text-align: center;
     margin-bottom: 250px;
 }
-/*
-.box{
-  float:left;
-  margin-right:20px;  
-  margin-bottom: 200px;
-}
-.clear{
-  clear:both;  
-}
-*/
+
 
 /*Styling for contact html*/
 #contactus{
@@ -513,7 +511,20 @@ table, th, td {
   height:30px;
 }
 
-#googlemaps {
-  text-align: center;  
-  margin-bottom: 100px;
+
+.box{
+  float:left;
+  margin-left: 5px;
+  margin-bottom: 200px;
+  
 }
+.clear{
+  clear:both;  
+}
+/*
+.googlemaps {
+  float:left;
+  margin-right:20px;  
+  margin-bottom: 200px;
+  clear:both;  
+}*/
