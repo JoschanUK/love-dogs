@@ -3,9 +3,6 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    /*padding: 10;
-    margin: 10;
-    box-sizing: border-box;*/
     background-color: black;
 }
 
@@ -364,6 +361,9 @@ input[type=text], input[type=submit]{
       margin-left: 3%;
     } 
 
+    /*table */
+    
+
     /*Resizing of video */
     .video {
       position: relative;
@@ -386,6 +386,13 @@ input[type=text], input[type=submit]{
     /*Hide the navidation menu */
     #main_menu{
         display: none;
+    }
+    /*Centering the table */
+    #table_sch{
+      width:70%; 
+      margin-left:15%; 
+      margin-right:15%;
+      margin-bottom: 50px; 
     }
 }
 
@@ -439,6 +446,14 @@ input[type=text], input[type=submit]{
       height: 100%;
       border: none;
     }
+
+    /*Centering the table */
+    #table_sch{
+      width:70%; 
+      margin-left:15%; 
+      margin-right:15%;
+      margin-bottom: 50px; 
+    }
 }
 
 /*Styling for gallery.html */
@@ -486,6 +501,18 @@ input[type=text], input[type=submit]{
   clear:both;  
 }
 */
+
+/*Styling for contact html*/
+#contactus{
+  margin-bottom: 10px;
+}
+
+table, th, td {
+  border:2px solid whitesmoke;
+  text-align: center;
+  height:30px;
+}
+
 #googlemaps {
   text-align: center;  
   margin-bottom: 100px;
