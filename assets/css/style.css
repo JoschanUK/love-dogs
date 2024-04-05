@@ -539,13 +539,10 @@ input[type=text], input[type=submit]{
 }
 
 /*Styling for caring.html*/
-#caring {
-    margin-bottom: 10em;
-}
 
 #caring-document {
     height : 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .video{
