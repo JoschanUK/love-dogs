@@ -404,7 +404,7 @@ input[type=text], input[type=submit]{
     display: none;
   }
   
-  /*Resiziing of the audio control */
+  /*Resizing of the audio control */
   #audio_sound{
     position: absolute;
     margin-top: 50%;
@@ -441,6 +441,12 @@ input[type=text], input[type=submit]{
     margin-bottom: 50px; 
   }
 }
+/* To ensure that the google maps are align when devices changes */
+@media screen and (max-width: 640px) {
+  .google-maps {
+    flex-direction: column;
+  }
+}
 
 /* Media query: large or landscape phones min-width 768px */
 @media screen and (min-width: 768px) {
@@ -471,7 +477,7 @@ input[type=text], input[type=submit]{
     /*Resiziing of the audio control */
     #audio_sound{
       position: absolute;
-      margin-top: 20%;
+      margin-top: 30%;
       margin-left: 5%;
     }  
 
@@ -501,6 +507,14 @@ input[type=text], input[type=submit]{
       margin-left:25%; 
       margin-bottom: 50px; 
     }   
+}
+
+@media screen and (min-width: 992px) {
+    #audio_sound{
+      position: absolute;
+      margin-top: 20%;
+      margin-left: 5%;
+  }  
 }
 
 /*Styling for gallery.html */
@@ -569,8 +583,4 @@ table, th, td {
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 640px) {
-  .google-maps {
-    flex-direction: column;
-  }
-}
+
