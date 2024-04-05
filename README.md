@@ -5,7 +5,6 @@ This website provides neccessary information based on experiences for first time
 
 ![alt text](<assets/Readme images/Screenshot on all devices.jpg>)
 
-
 # Features
 
 In this section, we shows the users what to expect and what features are presented in these 4 webpages.
@@ -48,7 +47,7 @@ On every webpage, there is a footer which shows the contact details of the webpa
 
 **Gallery Page**
 
-This is the second page in this website. It shows a collection of pictures of Walker all these years. In the background, a mp3 song is auto-played. (LOVE by Michael Buble).
+This is the second page in this website. It shows a collection of pictures of Walker all these years. The user can also click on the audio control. Once play, the background music of L.O.V.E by Michael Buble is played.
 
 From this page, users can navigate back to Home or proceed to view the caring page and the contact us page. 
 
@@ -58,7 +57,7 @@ From this page, users can navigate back to Home or proceed to view the caring pa
 
 This is the third page in the this website. It shows the user some information on how to take care of dogs and it also allow the users to click on a mp4 video.
 
-From this page, users can navigate back to Home or proceed to view the gallery page and the contact us page. 
+From this page, users can navigate back to Home or proceed to view the gallery page and the contact us page. s
 
 ![alt text](<assets/Readme images/Caring for dogs.jpg>)
 
@@ -66,10 +65,12 @@ From this page, users can navigate back to Home or proceed to view the gallery p
 
 This is the fourth and the last page in this website. It shows the contacts details - email address and mobile numbers if users would like to get in touch with the creator of this website.
 
+The user can also look at the google maps by enlarging it to see where the exact location to meet for dog walk in Loughton and Buckhurst Hill. 
+
 From this page, users can navigate back to Home or proceed to view the gallery page and the caring page. 
 
 ![alt text](<assets/Readme images/contact.jpg>)
-
+![alt text](<assets/Readme images/contact2.jpg>)
 
 # Features left to implement
 
@@ -85,6 +86,12 @@ From this page, users can navigate back to Home or proceed to view the gallery p
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+- Testing
+
+    | Test | Expectation | How to carry out | Result |
+    | ---  | --- | ---| ---|
+    | Nav bar | To be able to bring you to another webpage | By clicking on the text|Pass|
+    | Paragraph | Text |
 
 # Deployment
 
