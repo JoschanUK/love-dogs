@@ -605,7 +605,7 @@ input[type=text], input[type=submit]{
     /*Resiziing of the audio control */
     #audio_sound{
       position: absolute;
-      margin-top: 40%;
+      margin-top: 30%;
       margin-left: 5%;
     }  
     /* Resizing of video */
@@ -724,10 +724,10 @@ input[type=text], input[type=submit]{
 
 #photos{
     line-height: 0;
-    margin-bottom: 20em;
+    margin-bottom: 800px;
     text-align: center;  
     position: absolute;
-    top:300px;
+    top: 300px;
 }
 
 /*Styling for caring.html*/
