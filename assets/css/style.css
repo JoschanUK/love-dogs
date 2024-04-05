@@ -310,7 +310,7 @@ input[type=text], input[type=submit]{
 
 /* Aligning the text at the footer */
 #footer{   
-  position: fixed;
+  /*position: fixed;*/
   left: 0;
   bottom: 0;
   width: 100%;
@@ -386,12 +386,6 @@ input[type=text], input[type=submit]{
         margin-right:15%;
         margin-bottom: 50px; 
     }
-
-    .googlemaps{
-        margin-left:0%; 
-        margin-top:0%;
-        margin-bottom: 200px;      
-    }
 }
 
 /* Media query: large or landscape phones min-width 375px */
@@ -445,12 +439,6 @@ input[type=text], input[type=submit]{
     margin-left:15%; 
     margin-right:15%;
     margin-bottom: 50px; 
-  }
-
-  .googlemaps{
-    margin-left:7%; 
-    margin-top:0%;
-    margin-bottom: 200px;      
   }
 }
 
@@ -506,12 +494,6 @@ input[type=text], input[type=submit]{
     margin-right:15%;
     margin-bottom: 50px; 
   }
-
-  .googlemaps{
-    margin-left:10%; 
-    margin-top:0%;
-    margin-bottom: 200px;      
-  }
 }
 
 /* Media query: large or landscape phones min-width 576px */
@@ -565,12 +547,6 @@ input[type=text], input[type=submit]{
     margin-left:15%; 
     margin-right:15%;
     margin-bottom: 50px; 
-  }
-
-  .googlemaps{
-    margin-left:0%; 
-    margin-top:0%;
-    margin-bottom: 200px;      
   }
 }
 
@@ -631,13 +607,7 @@ input[type=text], input[type=submit]{
       width:50%;
       margin-left:25%; 
       margin-bottom: 50px; 
-    }
-    
-    .googlemaps{
-      margin-left:9%; 
-      margin-top:0%;
-      margin-bottom: 200px;      
-    }
+    }   
 }
 
 /* Media query: large or landscape phones min-width 992px */
@@ -698,12 +668,6 @@ input[type=text], input[type=submit]{
     margin-left:25%; 
     margin-bottom: 50px; 
   }
-  
-  .googlemaps{
-    margin-left:19%; 
-    margin-top:0%;
-    margin-bottom: 200px;      
-  }
 }
 
 
@@ -722,6 +686,7 @@ input[type=text], input[type=submit]{
 
 #photos{
     line-height: 0;
+    margin-top: 200px;
     margin-bottom: 200px;
     text-align: center;  
     top: 300px;
@@ -765,3 +730,15 @@ table, th, td {
   clear:both;  
 }
 
+.google-maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 640px) {
+  .google-maps {
+    flex-direction: column;
+  }
+}
