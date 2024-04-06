@@ -86,12 +86,18 @@ From this page, users can navigate back to Home or proceed to view the gallery p
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-- Testing
+- Web Pages Testing
 
     | Test | Expectation | How to carry out | Result |
     | ---  | --- | ---| ---|
     | Nav bar | To be able to bring you to another webpage | By clicking on the text|Pass|
-    | Paragraph | Text |
+    | Dog walk sign up | User details are captured | Enter sign up details | Pass|
+    | Social Media | Re direct to the website log in page | Click on the icons | Pass|
+    | Audio| The audio is played | Clicking on the play button | Pass|
+    | Video | The video is played| Clicking on the Play button| Pass|
+    | Map | The Map will be enlarged | Clicking on the map | Pass|
+    | Resizing on different devices | The layout is correct | Using the inspect code | Pass|
+    | Deploy Website | Website is working and usable | Deploy from Github| Pass|
 
 # Deployment
 
