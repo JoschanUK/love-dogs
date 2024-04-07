@@ -164,47 +164,47 @@
 
 /* unvisited link */
 a:link {
-    color: whitesmoke;
-  }
+  color: whitesmoke;
+}
   
-  /* visited link */
-  a:visited {
-    color: whitesmoke;
-  }
+/* visited link */
+a:visited {
+  color: whitesmoke;
+}
   
-  /* mouse over link */
-  a:hover {
-    color: tomato;
-  }
+/* mouse over link */
+a:hover {
+  color: tomato;
+}
   
-  /* selected link */
-  a:active {
-    color: blue;
-  } 
+/* selected link */
+a:active {
+  color: blue;
+} 
 
 /* General styles */
 body {
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: whitesmoke;
-    font-family: 'Andada+Pro', sans-serif;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+    
+  /* Generic project styles */
+  color: whitesmoke;
+  font-family: 'Andada+Pro', sans-serif;
 }
 
 /* Setting font and colour for the Main title h1 and p*/
 h1{
-    font-family: 'Andada+Pro', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size:200%;
-    color: whitesmoke;
-    text-align: center;  
+  font-family: 'Andada+Pro', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size:200%;
+  color: whitesmoke;
+  text-align: center;  
 }
 
 p {
     font-family: 'Andada+Pro', sans-serif;
-    /*text-transform: uppercase;*/
     letter-spacing: 2px;
     font-size:100%;
     color: whitesmoke;
@@ -285,7 +285,6 @@ input[type=text], input[type=submit]{
 }
 
 .parallax_links {
-    /* The image used */
     
     width: 100%;
     background-image: url("../images/link.jpg");
@@ -307,7 +306,6 @@ input[type=text], input[type=submit]{
     margin-bottom: 3em;
    
 }
-
 
 /* Aligning the text at the footer */
 #footer{   
@@ -380,6 +378,7 @@ input[type=text], input[type=submit]{
     #main_menu{
         display: none;
     }
+
     /*Centering the table */
     #table_sch{
         width:70%; 
@@ -442,6 +441,7 @@ input[type=text], input[type=submit]{
     margin-bottom: 50px; 
   }
 }
+
 /* To ensure that the google maps are align when devices changes */
 @media screen and (max-width: 640px) {
   .google-maps {
@@ -510,6 +510,7 @@ input[type=text], input[type=submit]{
     }   
 }
 
+/* Media query: large or landscape phones min-width 992px */
 @media screen and (min-width: 992px) {
     #audio_sound{
       position: absolute;
@@ -562,7 +563,6 @@ table, th, td {
   text-align: center;
   height:30px;
 }
-
 
 .box{
   float:left;
