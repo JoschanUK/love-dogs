@@ -55,7 +55,7 @@ From this page, users can navigate back to Home or proceed to view the caring pa
 
 **Caring for Dog Page**
 
-This is the third page in the this website. It shows the user some information on how to take care of dogs and it also allow the users to click on a mp4 video.
+This is the third page in this website. It shows the user some information on how to take care of dogs and it also allow the users to click on a mp4 video.
 
 From this page, users can navigate back to Home or proceed to view the gallery page and the contact us page. s
 
@@ -74,7 +74,7 @@ From this page, users can navigate back to Home or proceed to view the gallery p
 
 # Features left to implement
 
-- A "Ask A Question" search directory to search the web and return relevent information and to be display to the users.
+- A "Ask A Question" search directory to search the web and return relevent information and to be displayed to the user.
 - A contact us form to be created so that it is easier for users to get in touch.
 - A list of clinics in a table format to be display when users entered their location.
 
@@ -120,7 +120,7 @@ The live link can be found here - https://joschanuk.github.io/love-dogs/
 
 **Content and Media**
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 - External links are taken from RSPCA, Battersea and Dogs Trust.
 - Source codes from Love Running to build my Sign up for dog walk form and the four social media icons.
 - Downloaded a mp3 and mp4 (music and video) from Youtube.
