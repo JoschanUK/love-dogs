@@ -1,3 +1,4 @@
+
 /* Google font import */
 
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
@@ -352,8 +353,8 @@ input[type=text], input[type=submit]{
     /*Resiziing of the audio control */
     #audio_sound{
       position: absolute;
-      margin-top: 50%;
-      margin-left: 3%;
+      margin-top: 65%;
+      margin-left: 2%;
     } 
     /*Resizing of video */
     .video {
@@ -408,7 +409,7 @@ input[type=text], input[type=submit]{
   #audio_sound{
     position: absolute;
     margin-top: 50%;
-    margin-left: 3%;
+    margin-left: 12%%;
   } 
   /*Resizing of video */
   .video {
@@ -478,8 +479,8 @@ input[type=text], input[type=submit]{
     /*Resiziing of the audio control */
     #audio_sound{
       position: absolute;
-      margin-top: 30%;
-      margin-left: 5%;
+      margin-top: 35%;
+      margin-left: 30%;
     }  
 
     /* Resizing of video */
@@ -514,8 +515,8 @@ input[type=text], input[type=submit]{
 @media screen and (min-width: 992px) {
     #audio_sound{
       position: absolute;
-      margin-top: 20%;
-      margin-left: 5%;
+      margin-top: 25%;
+      margin-left: 34%;
   }  
 }
 
@@ -580,5 +581,3 @@ table, th, td {
   align-items: center;
   margin-bottom: 100px;
 }
-
-
