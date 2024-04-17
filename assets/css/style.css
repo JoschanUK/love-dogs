@@ -35,7 +35,6 @@
 #menuToggle a
 {
   text-decoration: none;
-  /*color: #232323;*/
   color: whitesmoke;
   transition: color 0.3s ease;
 }
@@ -217,7 +216,6 @@ p {
 
 h3 {
     font-family: 'Andada+Pro', sans-serif;
-    /*text-transform: uppercase;*/
     letter-spacing: 2px;
     font-size:80%;
     color: whitesmoke;
@@ -310,7 +308,6 @@ input[type=text], input[type=submit]{
 
 /* Aligning the text at the footer */
 #footer{   
-  /*position: fixed;*/
   left: 0;
   bottom: 0;
   width: 100%;
@@ -522,9 +519,11 @@ input[type=text], input[type=submit]{
 
 /*Styling for gallery.html */
 #photos img{    
-    width: 200px;
-    height: 200px;
-    line-height: 1em;         
+  width: 200px;
+  height: 200px;
+  line-height: 1em;
+  margin-bottom: 10px; 
+  border: solid white 2px;         
 }
 
 #form{

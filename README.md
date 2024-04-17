@@ -84,8 +84,17 @@ From this page, users can navigate back to Home or proceed to view the gallery p
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+  | Link| Result |
+  | --- | ---|
+  |https://joschanuk.github.io/love-dogs/index.html | No Error |
+  |https://joschanuk.github.io/love-dogs/gallery.html | No Error |
+  |https://joschanuk.github.io/love-dogs/caring.html | No Error |
+  |https://joschanuk.github.io/love-dogs/contact.html | No Error |
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
 - Web Pages Testing
 
     | Test | Expectation | How to carry out | Result |
@@ -129,6 +138,7 @@ The live link can be found here - https://joschanuk.github.io/love-dogs/
 - All walker's pictures are taken from my personal photo album.
 - Instruction to deploy is taken from [Github](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 - Putting google maps using iframe [stackoverflow](https://stackoverflow.com/questions/23737427/how-to-put-two-iframes-side-by-side).
+- Pure CSS Hamburger [fold-out menu](https://codepen.io/erikterwan/pen/EVzeRP). 
 
 
 
