@@ -409,7 +409,7 @@ input[type=text], input[type=submit]{
   #audio_sound{
     position: absolute;
     margin-top: 50%;
-    margin-left: 12%%;
+    margin-left: 12%;
   } 
   /*Resizing of video */
   .video {
